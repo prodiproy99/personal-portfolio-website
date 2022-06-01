@@ -1,10 +1,12 @@
 import React from 'react';
+import Banner from './Banner';
+import About from './About';
 
 const Home = () => {
     return (
         <div>
-            <h3>Home p</h3>
-            <button class="btn btn-outline btn-secondary">Button</button>
+             <Banner></Banner>
+             <About></About>
         </div>
     );
 };
