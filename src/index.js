@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+// eslint-disable-next-line
+import "swiper/css/bundle";
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 
