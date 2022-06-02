@@ -3,13 +3,17 @@ import AboutMe from '../../images/code.png'
 
 const About = () => {
     return (
-        <div className="bg-base-100 mx-auto my-32">
+        <div id="about" className="bg-base-100 mx-auto mt-32">
             <h2 className='text-3xl text-center font-bold uppercase'>About <span style={{ color: 'orange' }}>Me</span></h2>
             <p className="py-6 text-1xl text-center font-semi-medium">I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.</p>
-            <div className="min-h-screen justify-between">
-                <div className="hero-content flex-col lg:flex-row">
-                    <img style={{ width: '50%', borderRadius: "10px", boxShadow: "0px 0px 8px #ababab"}} className='left-0 mr-10 shadow-gray-600' src={AboutMe} alt='' />
-                    <div>
+            <div className="min-h-screen">
+                <div className="flex flex-col lg:flex-row justify-center justify-between px-12">
+                    <div className="w-1/3 truncate bg-gradient-to-r from-blue-100 to-white-200 shadow-lg shadow-indigo-500/50 mr-10">
+
+                        <img className='w-full h-80 shadow-gray-600 hover:scale-125 ease-in-out duration-300' src={AboutMe} alt='' />
+
+                    </div>
+                    <div className='w-2/3 p-5 bg-blue-100 shadow-lg shadow-indigo-500/50'>
                         <h1 className="text-2xl font-bold">Personal Info</h1>
                         <div className="flex">
                             <div className="py-6 mr-10">
@@ -26,7 +30,7 @@ const About = () => {
                             </div>
                         </div>
                         <button className="btn btn-secondary text-white mr-5">Download CV</button>
-                        
+
                     </div>
                 </div>
             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skill = () => {
     return (
-        <div className="bg-base-100 mx-auto my-32">
+        <div id='skill' className="bg-blue-50 mx-auto pt-32">
             <h2 className='text-3xl text-center font-bold uppercase mb-10'>My <span style={{ color: 'orange' }}>Skill</span></h2>
             <div className="min-h-screen justify-between">
                 <div className="hero-content flex-col lg:flex-row">
