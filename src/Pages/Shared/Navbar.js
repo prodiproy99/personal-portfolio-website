@@ -4,18 +4,18 @@ import {Link} from 'react-scroll'
 
 const Navbar = () => { 
     const menuItem = <>
-        <li><Link activeClass="active" to="home" spy={true} smooth={true} className='text-decoration-none font-medium text-xl'>Home</Link></li>
+        <li><Link activeClass="active" to="home" spy={true} smooth={true} className='text-decoration-none font-medium text-1xl'>Home</Link></li>
 
-        <li><Link spy={true} smooth={true} className='text-decoration-none font-medium text-xl' to='about'>About</Link></li>
+        <li><Link spy={true} smooth={true} className='text-decoration-none font-medium text-1xl' to='about'>About</Link></li>
 
-        <li><Link spy={true} smooth={true} className='text-decoration-none font-medium text-xl' to='service'>Services</Link></li>
-        <li><Link spy={true} smooth={true} className='text-decoration-none font-medium text-xl' to='portfolio'>Portfolio</Link></li>
-        <li><Link spy={true} smooth={true} className='text-decoration-none font-medium text-xl' to='blog'>Blog</Link></li>
-        <li><Link spy={true} smooth={true} className='text-decoration-none font-medium text-xl' to='contact'>Contact</Link></li>  
+        <li><Link spy={true} smooth={true} className='text-decoration-none font-medium text-1xl' to='service'>Services</Link></li>
+        <li><Link spy={true} smooth={true} className='text-decoration-none font-medium text-1xl' to='portfolio'>Portfolio</Link></li>
+        <li><Link spy={true} smooth={true} className='text-decoration-none font-medium text-1xl' to='blog'>Blog</Link></li>
+        <li><Link spy={true} smooth={true} className='text-decoration-none font-medium text-1xl' to='contact'>Contact</Link></li>  
         </>
   
     return (
-        <div className="navbar bg-base-200">
+        <div className="navbar bg-primary">
             <div className="navbar-start">
                 <div className="dropdown lg:hidden">
                     <label tabindex="0" className="btn btn-ghost lg:hidden">
