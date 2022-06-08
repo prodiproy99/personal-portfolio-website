@@ -1,7 +1,7 @@
 import React from 'react';
 import ContactImg from '../../images/contact1.png'
 import { FiFacebook, FiLinkedin } from 'react-icons/fi';
-import { AiOutlineGitlab } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
@@ -32,8 +32,8 @@ const Contact = () => {
     };
     return (
         <div id='contact' className='mt-32 bg-gray-100 py-24'>
-            <h2 className='text-3xl text-center font-bold uppercase'>Contact With <span style={{ color: 'orange' }}>Me</span></h2>
-            <div className="flex flex-col lg:flex-row mx-auto px-12 mt-10 gap-10">
+            <h2 className='text-3xl text-center font-bold uppercase'>Contact With <span style={{ color: "#ff014f" }}>Me</span></h2>
+            <div className="flex flex-col lg:flex-row mx-auto mt-10 gap-10">
                 <div className="p-5 bg-gradient-to-r from-blue-100 to-white-200 shadow-lg shadow-indigo-500/50">
                     <div>
                         <div className="truncate">
@@ -47,7 +47,7 @@ const Contact = () => {
                         <div className="flex-col lg:flex-row block">
                             <div className='bg-base-200 shadow-lg shadow-cyan-500/50 inline-block mt-5 px-3 py-3 text-2xl rounded-full hover:bg-yellow-600 hover:text-white hover:-translate-y-1.5 ease-in-out duration-300 mr-5'><a target='_blank' href='https://web.facebook.com/prodiproyp.9231/'><FiFacebook /></a></div>
                             <div className='bg-base-200 shadow-lg shadow-cyan-500/50 inline-block mt-5 px-3 py-3 text-2xl rounded-full hover:bg-yellow-600 hover:text-white hover:-translate-y-1.5 ease-in-out duration-300 mr-5'><a target='_blank' href=' https://www.linkedin.com/in/prodip-roy-024648211/'><FiLinkedin /></a></div>
-                            <div className='bg-base-200 shadow-lg shadow-cyan-500/50 inline-block mt-5 px-3 py-3 text-2xl rounded-full hover:bg-yellow-600 hover:text-white hover:-translate-y-1.5 ease-in-out duration-300'><a target='_blank' href=' https://github.com/prodiproy99'><AiOutlineGitlab /></a></div>
+                            <div className='bg-base-200 shadow-lg shadow-cyan-500/50 inline-block mt-5 px-3 py-3 text-2xl rounded-full hover:bg-yellow-600 hover:text-white hover:-translate-y-1.5 ease-in-out duration-300'><a target='_blank' href=' https://github.com/prodiproy99'><AiFillGithub /></a></div>
 
                         </div>
                     </div>

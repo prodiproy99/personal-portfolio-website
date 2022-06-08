@@ -1,6 +1,9 @@
 import React from 'react';
 // import { useRef, useState } from "react"; 
 import { Swiper, SwiperSlide } from "swiper/react";
+import Portfolio1 from '../../images/slider/slider.png'
+import Portfolio2 from '../../images/slider/slider2.png'
+import Portfolio3 from '../../images/slider/slider3.png'
 
 // Import Swiper styles
 import "swiper/css";
@@ -15,8 +18,8 @@ import { Autoplay, EffectCoverflow, Pagination } from "swiper";
 
 const MyPortfolio = () => {
   return (
-    <div id='portfolio' className='mb-32 mt-32'>
-      <h2 className='text-3xl text-center font-bold uppercase mb-5'>My <span style={{ color: 'orange' }}>Portfolio</span></h2>
+    <div id='portfolio' className='mb-32 mt-24'>
+      <h2 className='text-3xl text-center font-bold uppercase mb-5'>My <span style={{ color: "#ff014f" }}>Portfolio</span></h2>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -35,32 +38,14 @@ const MyPortfolio = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt='' />
+          <a href="https://prodiproy99.github.io/influencer-gear-responsive-website/" target="_blank" rel="noopener noreferrer"><img src={Portfolio1} alt='' /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt='' />
+        <a href="https://dapper-zuccutto-c8ca13.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={Portfolio2} alt='' /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt='' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt='' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt='' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt='' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt='' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt='' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" alt='' />
-        </SwiperSlide>
+        <a href=" https://stellar-crisp-909536.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={Portfolio3} alt='' /></a>
+        </SwiperSlide> 
       </Swiper>
     </div>
   );

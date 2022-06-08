@@ -6,7 +6,7 @@ const About = () => {
             <h2 className='text-3xl text-center font-bold uppercase'>About <span style={{ color: '#ff014f' }}>Me</span></h2>
             <p className="py-6 text-1xl text-center font-semi-medium mb-5">I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.</p>
             <div>
-                <div className="grid md:grid-cols-1 lg:grid-cols-2 grid-cols-1 gap-10 px-12">
+                <div className="grid md:grid-cols-1 lg:grid-cols-2 grid-cols-1 gap-10">
                     <div>
                         <div className='p-5 mb-5 bg-accent hover:bg-secondary hover:ease-in-out duration-300 hover:text-white shadow-lg shadow-indigo-500/50 hover:-translate-y-1.5 rounded-md'>
                             <p className="text-2xl font-bold hover:text-white">Personal Info</p>

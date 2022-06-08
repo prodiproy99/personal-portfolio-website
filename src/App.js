@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 import Home from './Pages/Home/Home';
@@ -7,7 +6,7 @@ import Footer from './Pages/Shared/Footer';
 
 function App() {
   return (
-    <div>
+    <div className='bg-primary'>
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
