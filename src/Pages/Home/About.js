@@ -19,9 +19,9 @@ const About = () => {
                                 </div>
                                 <div className="py-6">
                                     <p className='mb-3'><span className='font-medium'>Address:</span> Dhaka, Bangladesh</p>
-                                    <p className='mb-3'><span className='font-medium'>Phone:</span> +88 -1966560165</p>
-                                    <p className='mb-3'><span className='font-medium'>Whatsapp:</span>  +880 1303496228</p>
-                                    <p><span className='font-medium'>Email:</span> rprodipchandro@gmail.com</p>
+                                    <p className='mb-3'><span className='font-medium'>Phone:</span> <a href="tel:+880 1966560165">+88 -1966560165</a></p>
+                                    <p className='mb-3'><span className='font-medium'>Whatsapp:</span><a href="https://wa.me/008801303496228">+880 1303496228</a> </p>
+                                    <p><span className='font-medium'>Email:</span><a href="mailTo: rprodipchandro@gmail.com"> rprodipchandro@gmail.com</a></p>
                                 </div>
                             </div> 
                         </div>

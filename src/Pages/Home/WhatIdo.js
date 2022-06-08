@@ -25,7 +25,7 @@ const WhatIdo = () => {
                         <div className='p-10 bg-accent hover:bg-secondary hover:ease-in-out duration-300 hover:text-white shadow-lg shadow-indigo-500/50 hover:-translate-y-1.5 rounded-md'>
                             <div className="py-6">
                                 <div><BsLaptop className='text-5xl' /></div>
-                                <p className='my-5 text-2xl font-semi-bold'>Fronted Develop</p>
+                                <p className='my-5 text-2xl font-semi-bold'>Web Design</p>
                                 <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.</p>
                             </div>
                         </div>

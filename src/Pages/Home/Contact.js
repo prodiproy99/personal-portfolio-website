@@ -41,8 +41,8 @@ const Contact = () => {
                         </div>
                         <h2 className='text-3xl font-bold mt-5 mb-3'>Prodip Roy</h2>
                         <p>I am available for freelance work. Connect with me via and call in to my account.</p>
-                        <p>Phone: +880 1966560165</p>
-                        <p>Email: rprodipchandro@gmail.com</p>
+                        <p>Phone: <a href="tel:+88 01966560165">+880 1966560165</a></p>
+                        <p>Email: <a href="mailTo:rprodipchandro@gmail.com">rprodipchandro@gmail.com</a></p>
                         <h2 className='mt-5'>FIND WITH ME</h2>
                         <div className="flex-col lg:flex-row block">
                             <div className='bg-base-200 shadow-lg shadow-cyan-500/50 inline-block mt-5 px-3 py-3 text-2xl rounded-full hover:bg-yellow-600 hover:text-white hover:-translate-y-1.5 ease-in-out duration-300 mr-5'><a target='_blank' href='https://web.facebook.com/prodiproyp.9231/'><FiFacebook /></a></div>
